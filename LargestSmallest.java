@@ -23,7 +23,7 @@ public class Main
 		int smallest = 0;
 		int largest = 0;
 		
-		if(num1 > num2){
+		if(num1 > num2 || num1 == num2){
 		    smallest = num2;
 		    largest = num1;
 		}
